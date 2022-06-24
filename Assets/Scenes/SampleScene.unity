@@ -1423,9 +1423,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 755646014}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ce254a5c76ce8e4fad357c1849d0b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  leftKey: 0
+  rightKey: 0
+  upKey: 0
+  downKey: 0
+  isP1: 0
+  isP2: 0
+  isP3: 1
+  isP4: 0
 --- !u!54 &755646020
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1682,9 +1691,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 793311040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ce254a5c76ce8e4fad357c1849d0b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  leftKey: 0
+  rightKey: 0
+  upKey: 0
+  downKey: 0
+  isP1: 0
+  isP2: 0
+  isP3: 0
+  isP4: 1
 --- !u!54 &793311046
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1807,9 +1825,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 838855458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ce254a5c76ce8e4fad357c1849d0b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  leftKey: 0
+  rightKey: 0
+  upKey: 0
+  downKey: 0
+  isP1: 1
+  isP2: 0
+  isP3: 0
+  isP4: 0
 --- !u!54 &838855464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3297,7 +3324,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631319353}
-  m_Material: {fileID: 13400000, guid: ca07ceb111610e545933f5a6db51f4f2, type: 2}
+  m_Material: {fileID: 13400000, guid: 578262b21ee8dcf42978cb053d37fc69, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3391,9 +3418,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1631319353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c127dce943446a54dbfeea7aa78daac9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0639e933dc759b14d867e45ba3b26e10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: {x: 0, y: 0, z: 0}
+  resetPosition: {x: 0, y: 0, z: 0}
+  maxSpeed: 500
+  gawang1: {fileID: 0}
+  gawang2: {fileID: 0}
+  gawang3: {fileID: 0}
+  gawang4: {fileID: 0}
 --- !u!1 &1642232634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,9 +3534,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1642232634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ce254a5c76ce8e4fad357c1849d0b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  leftKey: 0
+  rightKey: 0
+  upKey: 0
+  downKey: 0
+  isP1: 0
+  isP2: 1
+  isP3: 0
+  isP4: 0
 --- !u!54 &1642232640
 Rigidbody:
   m_ObjectHideFlags: 0
