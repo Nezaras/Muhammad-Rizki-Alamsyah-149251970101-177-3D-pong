@@ -3421,13 +3421,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0639e933dc759b14d867e45ba3b26e10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: 0}
+  speed: {x: 0, y: 0, z: -500}
   resetPosition: {x: 0, y: 0, z: 0}
   maxSpeed: 500
-  gawang1: {fileID: 0}
-  gawang2: {fileID: 0}
-  gawang3: {fileID: 0}
-  gawang4: {fileID: 0}
+  gawang1: {fileID: 1309986087}
+  gawang2: {fileID: 74817299}
+  gawang3: {fileID: 1927592263}
+  gawang4: {fileID: 567275548}
 --- !u!1 &1642232634
 GameObject:
   m_ObjectHideFlags: 0
