@@ -17,13 +17,13 @@ public class PaddleController : MonoBehaviour
     public bool isP2;
     public bool isP3;
     public bool isP4;
-    // Start is called before the first frame update
+    
     private void Start()
     {
         rig = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
+    
     private void Update()
     {
         MoveObject(GetInput());
