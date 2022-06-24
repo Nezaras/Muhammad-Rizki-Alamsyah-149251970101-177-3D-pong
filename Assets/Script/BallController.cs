@@ -12,8 +12,8 @@ public class BallController : MonoBehaviour
     public float maxSpeed = 500.0f;
 
     public Collider gawang1, gawang2, gawang3, gawang4;
-    //public SpawnerController manager;
-    //public ScoreManager managerScore;
+    public SpawnerController manager;
+    public ScoreManager managerScore;
 
     private void Start()
     {
@@ -33,7 +33,7 @@ public class BallController : MonoBehaviour
         }
     }
 
-    /*private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other == gawang1)
         {
@@ -55,5 +55,5 @@ public class BallController : MonoBehaviour
             managerScore.AddP4Score(1);
             manager.RemoveBall(gameObject);
         }
-    }*/
+    }
 }
