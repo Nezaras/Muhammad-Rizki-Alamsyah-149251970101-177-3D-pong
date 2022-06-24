@@ -248,11 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323010a0d41a2a34ca637948957f6e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gawang1: {fileID: 1309986086}
-  Gawang2: {fileID: 74817298}
-  Gawang3: {fileID: 1927592262}
-  Gawang4: {fileID: 567275547}
-  playerCounter: 0
 --- !u!4 &166366553
 Transform:
   m_ObjectHideFlags: 0
@@ -441,8 +436,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255615
-  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
+    rgba: 4292880639
+  m_fontColor: {r: 1, g: 0.15686275, b: 0.87843144, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 0
   m_fontColorGradient:
@@ -680,9 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5496b317c64e14c4e84b13cd4f7302df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPowerUpAmount: 5
-  spamInterval: 2
-  ball: {fileID: 1631319353}
 --- !u!4 &446741320
 Transform:
   m_ObjectHideFlags: 0
@@ -691,7 +683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446741318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1866.1555, y: -2023.8538, z: -1554.4237}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -825,7 +817,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83dff25d3d36b5442826a600eaf64d59, type: 2}
+  - {fileID: 2100000, guid: 8837ad3fb6c43094c92a8a181777ae0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -854,7 +846,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473965485}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &473965490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1340,7 +1332,7 @@ GameObject:
   - component: {fileID: 755646020}
   - component: {fileID: 755646019}
   m_Layer: 0
-  m_Name: PaddlePlayer 3
+  m_Name: P3
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1434,15 +1426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  leftKey: 276
-  rightKey: 275
-  upKey: 0
-  downKey: 0
-  isP1: 0
-  isP2: 0
-  isP3: 1
-  isP4: 0
 --- !u!54 &755646020
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1525,8 +1508,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255615
-  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
+    rgba: 4292880639
+  m_fontColor: {r: 1, g: 0.15686275, b: 0.87843144, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1608,7 +1591,7 @@ GameObject:
   - component: {fileID: 793311046}
   - component: {fileID: 793311045}
   m_Layer: 0
-  m_Name: PaddlePlayer 4
+  m_Name: P4
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1702,15 +1685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  leftKey: 0
-  rightKey: 0
-  upKey: 273
-  downKey: 274
-  isP1: 0
-  isP2: 0
-  isP3: 0
-  isP4: 1
 --- !u!54 &793311046
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1742,7 +1716,7 @@ GameObject:
   - component: {fileID: 838855464}
   - component: {fileID: 838855463}
   m_Layer: 0
-  m_Name: PaddlePlayer 1
+  m_Name: P1
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1836,15 +1810,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  leftKey: 97
-  rightKey: 100
-  upKey: 0
-  downKey: 0
-  isP1: 1
-  isP2: 0
-  isP3: 0
-  isP4: 0
 --- !u!54 &838855464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1913,7 +1878,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83dff25d3d36b5442826a600eaf64d59, type: 2}
+  - {fileID: 2100000, guid: 8837ad3fb6c43094c92a8a181777ae0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1942,7 +1907,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850987075}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &850987080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1989,15 +1954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c127dce943446a54dbfeea7aa78daac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: 500}
-  resetPosition: {x: 0, y: 0, z: 0}
-  maxSpeed: 500
-  gawang1: {fileID: 1309986087}
-  gawang2: {fileID: 74817299}
-  gawang3: {fileID: 1927592263}
-  gawang4: {fileID: 567275548}
-  manager: {fileID: 446741319}
-  managerScore: {fileID: 1918151715}
 --- !u!54 &887138552
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2123,15 +2079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c127dce943446a54dbfeea7aa78daac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: 500}
-  resetPosition: {x: 0, y: 0, z: 0}
-  maxSpeed: 500
-  gawang1: {fileID: 1309986087}
-  gawang2: {fileID: 74817299}
-  gawang3: {fileID: 1927592263}
-  gawang4: {fileID: 567275548}
-  manager: {fileID: 446741319}
-  managerScore: {fileID: 1918151715}
 --- !u!54 &919396671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2340,11 +2287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90a8208891648c0448e2533754c9e8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreP1: {fileID: 632134955}
-  scoreP2: {fileID: 771933262}
-  scoreP3: {fileID: 977582085}
-  scoreP4: {fileID: 1023210042}
-  manager: {fileID: 1918151715}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2494,8 +2436,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255380
-  m_fontColor: {r: 0.078431375, g: 1, b: 0, a: 1}
+    rgba: 4281270271
+  m_fontColor: {r: 1, g: 1, b: 0.18039216, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2748,7 +2690,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83dff25d3d36b5442826a600eaf64d59, type: 2}
+  - {fileID: 2100000, guid: 8837ad3fb6c43094c92a8a181777ae0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2777,7 +2719,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161170094}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &1161170099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2858,8 +2800,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294910208
-  m_fontColor: {r: 0, g: 0.12941177, b: 1, a: 1}
+    rgba: 4294910247
+  m_fontColor: {r: 0.15294118, g: 0.12941177, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 0
   m_fontColorGradient:
@@ -3034,7 +2976,7 @@ GameObject:
   - component: {fileID: 1321059333}
   - component: {fileID: 1321059332}
   m_Layer: 0
-  m_Name: InnerField
+  m_Name: Arena Utama
   m_TagString: Field
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3259,8 +3201,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255380
-  m_fontColor: {r: 0.078431375, g: 1, b: 0, a: 1}
+    rgba: 4281270271
+  m_fontColor: {r: 1, g: 1, b: 0.18039216, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 0
   m_fontColorGradient:
@@ -3452,15 +3394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c127dce943446a54dbfeea7aa78daac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: -500}
-  resetPosition: {x: 0, y: 0, z: 0}
-  maxSpeed: 500
-  gawang1: {fileID: 1309986087}
-  gawang2: {fileID: 74817299}
-  gawang3: {fileID: 1927592263}
-  gawang4: {fileID: 567275548}
-  manager: {fileID: 446741319}
-  managerScore: {fileID: 1918151715}
 --- !u!1 &1642232634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3409,7 @@ GameObject:
   - component: {fileID: 1642232640}
   - component: {fileID: 1642232639}
   m_Layer: 0
-  m_Name: PaddlePlayer 2
+  m_Name: P2
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3570,15 +3503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa05067ac7a75748922d2f367ae6324, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  leftKey: 0
-  rightKey: 0
-  upKey: 119
-  downKey: 115
-  isP1: 0
-  isP2: 1
-  isP3: 0
-  isP4: 0
 --- !u!54 &1642232640
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3608,7 +3532,7 @@ GameObject:
   - component: {fileID: 1786293541}
   - component: {fileID: 1786293540}
   m_Layer: 0
-  m_Name: OuterField
+  m_Name: Arena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3804,7 +3728,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83dff25d3d36b5442826a600eaf64d59, type: 2}
+  - {fileID: 2100000, guid: 8837ad3fb6c43094c92a8a181777ae0b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3833,7 +3757,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864406425}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1864406429
 Transform:
   m_ObjectHideFlags: 0
@@ -3890,17 +3814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b05ea1adc797b4594d11580f34bee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  P1Score: 0
-  P2Score: 0
-  P3Score: 0
-  P4Score: 0
-  P1: {fileID: 838855463}
-  P2: {fileID: 1642232639}
-  P3: {fileID: 755646019}
-  P4: {fileID: 793311045}
-  maxScore: 15
-  ball: {fileID: 1631319359}
-  gManager: {fileID: 166366552}
 --- !u!4 &1918151716
 Transform:
   m_ObjectHideFlags: 0
