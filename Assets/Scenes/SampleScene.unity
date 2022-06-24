@@ -3764,7 +3764,7 @@ MonoBehaviour:
   P2: {fileID: 1642232639}
   P3: {fileID: 755646019}
   P4: {fileID: 793311045}
-  maxScore: 1
+  maxScore: 10
   ball: {fileID: 1631319359}
   gawangController: {fileID: 166366552}
 --- !u!4 &1918151716
