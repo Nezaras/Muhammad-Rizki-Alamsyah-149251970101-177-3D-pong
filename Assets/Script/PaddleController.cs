@@ -59,7 +59,7 @@ public class PaddleController : MonoBehaviour
         rig.velocity = movement;
     }
 
-    /* public void destroyPlayer()
+    public void destroyPlayer()
     {
         if (isP1)
         {
@@ -78,5 +78,5 @@ public class PaddleController : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-    }*/
+    }
 }
