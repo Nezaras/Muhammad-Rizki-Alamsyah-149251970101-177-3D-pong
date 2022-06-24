@@ -27,7 +27,6 @@ public class BallController : MonoBehaviour
         {
             if (rig.velocity.magnitude < maxSpeed)
             {
-                Debug.Log("OK");
                 rig.velocity = rig.velocity.normalized * maxSpeed;
             }
         }

@@ -149,7 +149,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74817298}
-  m_Material: {fileID: 13400000, guid: ca07ceb111610e545933f5a6db51f4f2, type: 2}
+  m_Material: {fileID: 13400000, guid: 578262b21ee8dcf42978cb053d37fc69, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
@@ -245,9 +245,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 166366551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 323010a0d41a2a34ca637948957f6e86, type: 3}
+  m_Script: {fileID: 11500000, guid: e53c0c09f75448748af55c20dcc00722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Gawang1: {fileID: 1309986086}
+  Gawang2: {fileID: 74817298}
+  Gawang3: {fileID: 1927592262}
+  Gawang4: {fileID: 567275547}
+  playerCounter: 0
 --- !u!4 &166366553
 Transform:
   m_ObjectHideFlags: 0
@@ -271,7 +276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 166366551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8e7cfca4046be24ab0c856a18c7e53a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d507af2fdc1e1645a90e67694f6751d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &172720827
@@ -672,9 +677,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 446741318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5496b317c64e14c4e84b13cd4f7302df, type: 3}
+  m_Script: {fileID: 11500000, guid: 2509039823ab8ad4cad0015ff9ae4d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxPowerUpAmount: 5
+  spamInterval: 2
+  ball: {fileID: 1631319353}
 --- !u!4 &446741320
 Transform:
   m_ObjectHideFlags: 0
@@ -886,7 +894,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567275547}
-  m_Material: {fileID: 13400000, guid: ca07ceb111610e545933f5a6db51f4f2, type: 2}
+  m_Material: {fileID: 13400000, guid: 578262b21ee8dcf42978cb053d37fc69, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
@@ -1988,6 +1996,8 @@ MonoBehaviour:
   gawang2: {fileID: 74817299}
   gawang3: {fileID: 1927592263}
   gawang4: {fileID: 567275548}
+  manager: {fileID: 446741319}
+  managerScore: {fileID: 1918151715}
 --- !u!54 &919396671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2193,9 +2203,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 927604785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90a8208891648c0448e2533754c9e8f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 339552c2833006d4296666009207643a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreP1: {fileID: 632134955}
+  scoreP2: {fileID: 771933262}
+  scoreP3: {fileID: 977582085}
+  scoreP4: {fileID: 1023210042}
+  manager: {fileID: 1918151715}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,7 +2818,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309986086}
-  m_Material: {fileID: 13400000, guid: ca07ceb111610e545933f5a6db51f4f2, type: 2}
+  m_Material: {fileID: 13400000, guid: 578262b21ee8dcf42978cb053d37fc69, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
@@ -3310,6 +3325,8 @@ MonoBehaviour:
   gawang2: {fileID: 74817299}
   gawang3: {fileID: 1927592263}
   gawang4: {fileID: 567275548}
+  manager: {fileID: 446741319}
+  managerScore: {fileID: 1918151715}
 --- !u!1 &1642232634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3736,9 +3753,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918151714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61b05ea1adc797b4594d11580f34bee5, type: 3}
+  m_Script: {fileID: 11500000, guid: 44303e1e6d6204b4197be8577e41116a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  P1Score: 0
+  P2Score: 0
+  P3Score: 0
+  P4Score: 0
+  P1: {fileID: 838855463}
+  P2: {fileID: 1642232639}
+  P3: {fileID: 755646019}
+  P4: {fileID: 793311045}
+  maxScore: 1
+  ball: {fileID: 1631319359}
+  gawangController: {fileID: 166366552}
 --- !u!4 &1918151716
 Transform:
   m_ObjectHideFlags: 0
@@ -3779,7 +3807,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927592262}
-  m_Material: {fileID: 13400000, guid: ca07ceb111610e545933f5a6db51f4f2, type: 2}
+  m_Material: {fileID: 13400000, guid: 578262b21ee8dcf42978cb053d37fc69, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2

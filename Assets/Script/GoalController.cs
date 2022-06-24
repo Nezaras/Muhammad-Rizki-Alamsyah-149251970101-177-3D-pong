@@ -15,7 +15,7 @@ public class GoalController : MonoBehaviour
             if (isP1)
             {
                 manager.AddP1Score(1);
-                Debug.Log("P1");
+                
             }
             if (isP2)
             {
@@ -24,7 +24,7 @@ public class GoalController : MonoBehaviour
             if (isP3)
             {
                 manager.AddP3Score(1);
-                Debug.Log("P3");
+                
             }
             if (isP4)
             {

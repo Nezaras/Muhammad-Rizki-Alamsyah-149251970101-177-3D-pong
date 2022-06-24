@@ -58,6 +58,7 @@ public class SpawnerController : MonoBehaviour
     {
         Vector3 speedSpawned;
         Vector3 spawnPos;
+
         if (ballList.Count >= maxPowerUpAmount)
         {
             return;
@@ -67,28 +68,28 @@ public class SpawnerController : MonoBehaviour
             speedSpawned = new Vector3(200, 0, 500);
             spawnPos = new Vector3(-185, 50, 110);
             SpawnBall(speedSpawned, spawnPos);
-            // ballSpawned.GetComponent<BallController>().speed = new Vector3(200,0,500);
+            
         }
         else if (spawnPoints == 2)
         {
             speedSpawned = new Vector3(1000, 0, -300);
             spawnPos = new Vector3(-185, 50, 485);
             SpawnBall(speedSpawned, spawnPos);
-            // ballSpawned.GetComponent<BallController>().speed = new Vector3(1000,0,-500);
+            
         }
         else if (spawnPoints == 3)
         {
             speedSpawned = new Vector3(-200, 0, -500);
             spawnPos = new Vector3(185, 50, 485);
             SpawnBall(speedSpawned, spawnPos);
-            // ballSpawned.GetComponent<BallController>().speed = new Vector3(-200,0,-500);
+            
         }
         else if (spawnPoints == 4)
         {
             speedSpawned = new Vector3(-1000, 0, 300);
             spawnPos = new Vector3(185, 50, 110);
             SpawnBall(speedSpawned, spawnPos);
-            // ballSpawned.GetComponent<BallController>().speed = new Vector3(-1000,0,500);
+            
         }
     }
 
